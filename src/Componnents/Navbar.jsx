@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className=" p-4 mt-5">
-      <div className="container mx-auto flex justify-between items-center">
-      <div className="bg-gradient-to-r from-[#6ce761] to-[#ffb347] bg-clip-text text-transparent text-4xl font-bold font-poppins transition duration-300">
-  Talent Match
-</div>
+    <nav className=" p-4 ">
+      <div className="container mx-auto flex justify-between items-center mt-8">
+        <div className="bg-gradient-to-r from-[#6ce761] to-[#ffb347] bg-clip-text text-transparent text-4xl font-bold font-poppins transition duration-300">
+          Talent Match
+        </div>
 
         <div className="flex items-center">
           <input
@@ -19,11 +19,11 @@ const Navbar = () => {
           </button>
         </div>
         <button className="bg-[#5cde3b] text-white px-4 py-2 rounded-md hover:bg-[#ba8336]">
-            Login
-          </button>
-          <button className="bg-[#5cde3b] text-white px-4 py-2 rounded-md hover:bg-[#ba8336]">
-            sign up
-          </button>
+          Login
+        </button>
+        <button className="bg-[#5cde3b] text-white px-4 py-2 rounded-md hover:bg-[#ba8336]">
+          sign up
+        </button>
       </div>
     </nav>
   );

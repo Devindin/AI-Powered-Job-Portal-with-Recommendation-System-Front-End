@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* index.css */
+
+@keyframes fill {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .color-fill {
+    background: linear-gradient(90deg, #c6af2c, #41074d, #110113); /* Add your gradient colors here */
+    background-size: 200% 100%; /* Size for animation */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent to show the gradient */
+    animation: fill 10s ease infinite; /* Animation duration and infinite looping */
+  }
+  
