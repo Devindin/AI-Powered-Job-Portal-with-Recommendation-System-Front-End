@@ -1,8 +1,19 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hero from "../src/Componnents/Hero"
+
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">welcome</h1>
+    <Router>
+      <div className="App bg-gradient-to-r from-[#ae59bd] to-[#50105b] min-h-screen flex items-center justify-center relative">
+      <Routes>
+    
+      <Route path="/" element={<Hero />} />
+   
+    </Routes>
     </div>
+    </Router>
   );
 }
 
